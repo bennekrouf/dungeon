@@ -75,8 +75,8 @@ impl MapBuilder {
                 self.apply_horizontal_tunnel(prev.x, new.x, prev.y);
                 self.apply_vertical_tunnel(prev.y, new.y, new.x);
             } else {
-                self.apply_horizontal_tunnel(prev.y, new.y, prev.x);
-                self.apply_vertical_tunnel(prev.x, new.x, new.y);
+                self.apply_vertical_tunnel(prev.y, new.y, new.x);
+                self.apply_horizontal_tunnel(prev.x, new.x, prev.y);
             }            
         }
     }

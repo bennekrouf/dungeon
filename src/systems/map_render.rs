@@ -1,4 +1,4 @@
-use crate::{prelude::*, camera};
+use crate::prelude::*;
 
 #[system]
 pub fn map_render(
